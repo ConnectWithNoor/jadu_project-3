@@ -22,7 +22,7 @@ var due = new Date("March 31, 2021 1:00:00").getTime();
     document.querySelector('.showCounter').innerHTML = days +'d: ' +hours +'h: ' + mins +'m: ' + secs+'s';
  }, 1000);
 
- document.querySelector('.btn').addEventListener('click',function(){
+ document.querySelector('.btn').addEventListener('click', ()=>{
     clearInterval(counter);
 })
 
