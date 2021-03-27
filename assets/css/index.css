@@ -10,6 +10,30 @@
   width: 100vw;
   background-color: black;
 }
+.outerHeading {
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  height: 120px;
+  width: 320px;
+  border-radius: 10px;
+}
+.Heading {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  /* background-color: #1b1b1b; */
+  border-radius: 6px;
+}
+.innerHeading {
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  animation: animate 1.5s linear infinite;
+}
 .show2 {
   display: grid;
   justify-content: center;
