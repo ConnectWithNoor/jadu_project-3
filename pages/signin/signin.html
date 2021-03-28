@@ -20,7 +20,14 @@
         <a href="../contact/contact.html" class="nav-link">Contact</a>
       </div>
     </div>
-    <form action="action_page.php" class="formsignin" method="post">
+
+    <form
+      accept="#"
+      method="POST"
+      autocomplete="off"
+      class="formsignin"
+      id="formsignin"
+    >
       <div class="container">
         <div class="center">
           <h2>Sign In</h2>
@@ -29,7 +36,13 @@
 
         <div class="form-item">
           <label for="email"><b>Email</b></label>
-          <input type="email" placeholder="Enter Email" name="email" required />
+          <input
+            type="email"
+            placeholder="Enter Email"
+            name="email"
+            id="emailField"
+            required
+          />
         </div>
         <div class="form-item">
           <label for="psw"><b>Password</b></label>
@@ -38,6 +51,7 @@
             placeholder="Enter Password"
             name="psw"
             required
+            id="pswField"
           />
         </div>
         <button type="submit">Login</button>
@@ -54,5 +68,6 @@
         <span class="psw"><a class="nav-link">Forgot password?</a></span>
       </div>
     </form>
+    <script src="../../assets/js/signin.js"></script>
   </body>
 </html>

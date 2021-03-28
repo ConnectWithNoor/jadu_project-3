@@ -19,8 +19,7 @@
         <a href="../contact/contact.html" class="nav-link">Contact</a>
       </div>
     </div>
-
-    <form action="action_page.php" class="formsignup">
+    <form accept="#" method="POST" autocomplete="off" class="formsignup" id="formsignup">
       <div class="container">
         <div class="center">
 
@@ -30,11 +29,11 @@
 
         <div class="form-item">
         <label for="name"><b>Name</b></label>
-        <input type="text" placeholder="Enter Name" name="name" required />
+        <input id="nameField" type="text" placeholder="Enter Name" name="name" required />
         </div>
         <div class="form-item">
         <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required />
+        <input id="emailField" type="text" placeholder="Enter Email" name="email" required />
       </div>
         <div class="form-item">
         <label for="psw"><b>Password</b></label>
@@ -43,6 +42,7 @@
           placeholder="Enter Password"
           name="psw"
           required
+          id="pswField"
         />
       </div>
         <div class="form-item">
@@ -52,6 +52,7 @@
           placeholder="Repeat Password"
           name="psw-repeat"
           required
+          id="pswRepeatField"
         />
       </div>
         <div class="form-item">
@@ -76,5 +77,7 @@
         </div>
       </div>
     </form>
+
+    <script src="../../assets/js/signup.js"></script>
   </body>
 </html>
