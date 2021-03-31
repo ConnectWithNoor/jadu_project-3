@@ -19,3 +19,7 @@ Sign up page front-end
 27/03/2021 5:51pm
 Abdullah
 Sign In page front-end
+
+Kainat 
+Contact page  front-end
+29/03/2021  1:20 pm
