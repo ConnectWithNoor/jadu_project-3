@@ -4,6 +4,13 @@ Date:
 Your name
 List of task you have completed.
 
+27/03/2021 - 31/03/2021
+Noor Muhammad
+Supervised the project
+Created the signup and signin login logic with help of localstorage.
+fixed bugs.
+made code efficient.
+
 27/03/2021 7:10pm
 Hamza
 Index page front-end
@@ -20,6 +27,6 @@ Sign up page front-end
 Abdullah
 Sign In page front-end
 
-Kainat 
-Contact page  front-end
-29/03/2021  1:20 pm
+Kainat
+Contact page front-end
+29/03/2021 1:20 pm
